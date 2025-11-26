@@ -1,0 +1,447 @@
+body {
+    background-color: rgb(150, 134, 110);
+}
+header {
+    background-color: burlywood;
+    color: rgb(53, 22, 22);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+header h1 {
+    font-size: 23px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:  4px solid rgb(53, 32, 32);
+    border-radius: 15px;
+    
+}
+
+.logo {
+    
+    padding: 5px;
+    border: 6px solid rgb(53, 32, 32);;
+    color: rgb(53, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 70px;
+    
+}
+.k{
+    font-size: 70px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.k2{
+    font-size: 50px;
+    margin-top:-115px ;
+    margin-left: 30px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  
+}
+
+nav a {
+    color: rgb(53, 32, 32);;
+    text-decoration: none;
+    font-size: 1.25em;
+    transition: color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+    color:burlywood; 
+    border-radius: 8px;
+    background-color: rgb(53, 22, 22);
+    padding:3px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.sousmenu{
+    display: none;
+}
+.s1:hover .sousmenu{
+    display: block;
+}
+.ca1{
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.div1{
+    position: relative;
+    justify-content: space-between;
+    background-image: url(sans\ sucre4.jpg);
+}
+.op1{
+    justify-content: space-between;
+    background-color: rgba(41, 5, 5, 0.705);
+    position: absolute;
+    top:0px;
+    left: -100%;
+    width: 1502px;
+    height: 418.2px;
+    box-sizing: border-box;
+    transition: all 2.5s;
+    
+}
+.div1:hover .op1{
+    left: 0;
+
+}
+.pdiv1{
+    text-align: center;
+    font-size: 140px;
+    margin-top: 80px;
+    
+    color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div2{
+    width: 1330px;
+    height: 1000px;
+    margin: 25px;
+}
+.div21{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-left: 180px;
+}
+.div21:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(18, 10, 10, 0.73);
+}
+.im1{
+    margin-left: px;
+    margin-top: 15px;
+}
+.div22{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: -28%;
+    margin-left: 540px;
+}
+.div22:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+   
+.div23{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top:-28.2% ;
+    margin-left: 900px;
+}
+.div23:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.div24{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: 20PX;
+    margin-left: 180px;
+}
+.div24:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.div25{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: -28.2%;
+    margin-left: 540px;
+}
+.div25:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.div26{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: -28.2%;
+    margin-left: 900px;
+}
+.div26:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.div27{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top:20PX ;
+    margin-left: 345px;
+}
+.div27:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.div28{
+    position: relative;
+    overflow: hidden;
+    background-color:white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    text-align: center;
+    margin-top: -28.2%;
+    margin-left: 720px;
+}
+.div28:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.prix{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.but2{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    background-color:orange;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: bottom 0.3s ease;
+}
+.div21:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div22:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div23:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div24:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div25:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div26:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div27:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.div28:hover .but2{
+    bottom: 20px;
+    backdrop-filter: blur(4px);
+
+}
+.total{
+    margin-top: 60px;
+    margin-left: 7px;
+}
+.footer {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: space-between;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    flex: 1;
+  }
+  
+  
+  .feature img {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .pff {
+    font-weight: bold;
+  }
+  
+  .feature span {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .footer-middle {
+    text-align: center;
+    margin: 20px 0;
+    margin-left: 540px;
+  }
+  .logo2{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 210px;
+    padding: 30px;
+    border: 3px solid #D2691E;
+    
+}
+
+
+.pc{
+    font-size: 20px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: #D2691E;
+    text-align: center;
+}
+.dpc{
+    margin-right: 10px;
+    border-left: 3px solid rgb(53, 22, 22);
+    border-right: 3px solid rgb(53, 22, 22);
+}
+.dlo{
+    margin-left: 58px;
+}
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .pf1 {
+    font-size: 14px;
+    margin-right: 500px;
+  }
+  
+  .footer-middle a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-middle a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
